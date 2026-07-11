@@ -1,0 +1,54 @@
+@media(max-width:1180px){.app{grid-template-columns:1fr}
+
+@media(max-width:640px){.actions button{flex:1 1 calc(50% - 8px)}
+
+@media(max-width:640px){.deck{grid-auto-rows:286px}
+
+@media(max-width:640px){.dictionary-toolbar{grid-template-columns:1fr}
+
+@media (max-width: 768px){
+  .header{
+    padding:12px 14px;
+    gap:10px;
+  }
+
+  .brand h1{
+    font-size:20px;
+    line-height:1.2;
+  }
+
+  .brand p{
+    font-size:12px;
+    line-height:1.5;
+  }
+
+  .actions{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;
+  }
+
+  .actions button{
+    width:100%;
+    min-height:48px;
+    padding:10px 8px;
+    font-size:15px;
+    line-height:1.2;
+  }
+
+  .actions .danger{
+    grid-column:1 / -1;
+  }
+
+  .toolbar button{
+    min-height:42px;
+    padding:8px 12px;
+    font-size:14px;
+  }
+
+  .upload{
+    min-height:48px;
+    padding:11px;
+  }
+}
